@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FilmFolio.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FilmFolio.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FilmFolio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FilmFolio.props",
+      "PackagePath": "build\\FilmFolio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FilmFolio.props",
+      "PackagePath": "buildMultiTargeting\\FilmFolio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FilmFolio.props",
+      "PackagePath": "buildTransitive\\FilmFolio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

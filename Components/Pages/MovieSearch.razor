@@ -1,0 +1,34 @@
+﻿@page "/moviesearch"
+@using System.Text.Json
+@using MovieSearchApp.Models
+
+@code {
+    private string searchQuery = string.Empty;
+    private List<Movie>? movies;
+    private bool isLoading = false;
+
+    private async Task SearchMovies()
+    {
+        isLoading = true;
+        movies = new List<Movie>(); // Reset the movies list
+        try
+        {
+            var client = new HttpClient();
+            var response = await client.GetStringAsync($"http://www.omdbapi.com/?apikey=c6489d51={searchQuery}");
+            var result = JsonSerializer.Deserialize<MovieSearchResult>(response, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+            if (result?.Search != null)
+            {
+                movies = result.Search;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching data: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}

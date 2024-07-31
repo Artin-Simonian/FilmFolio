@@ -1,4 +1,4 @@
-﻿namespace FilmFolio.Components.Models
+﻿namespace MovieSearchApp.Models
 {
     public class Movie
     {
@@ -26,5 +26,10 @@
         public string Production { get; set; }
         public string Website { get; set; }
         public string Response { get; set; }
+    }
+
+    public class MovieSearchResult
+    {
+        public List<Movie> Search { get; set; }
     }
 }

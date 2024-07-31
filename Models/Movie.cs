@@ -1,7 +1,8 @@
-﻿namespace MovieSearchApp.Models
+﻿namespace BlazorApp1.Models
 {
     public class Movie
     {
+
         public string Title { get; set; } = "";
         public string Year { get; set; } = "";
         public string Rated { get; set; } = "";

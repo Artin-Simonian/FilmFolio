@@ -6,12 +6,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Models\Movie.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Models\Movie.cs" />
-  </ItemGroup>
-
 </Project>

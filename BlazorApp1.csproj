@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Movie.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Models\Movie.cs" />
+  </ItemGroup>
+
+</Project>

@@ -1,12 +1,13 @@
 ﻿@page "/moviesearch"
 @using System.Text.Json
 @using MovieSearchApp.Models
+@inject NavigationManager NavigationManager
 
 <h3>Movie Search</h3>
 
 <input @bind="searchQuery" placeholder="Enter movie title" />
-<button type="button" @onclick="SearchMovies" disabled="@isLoading">Search</button>
-
+<button type="button" @onclick="SearchMovies" disabled="@isLoading">Search</button> <br>
+<button type="button" @onclick="HomeBtn">Home</button>
 @if (isLoading)
 {
     <p>Loading...</p>
@@ -33,6 +34,11 @@ else if (movies != null && !movies.Any())
     private string searchQuery = string.Empty;
     private List<Movie>? movies;
     private bool isLoading = false;
+
+    private void HomeBtn()
+    {
+        NavigationManager.NavigateTo("/");
+    }
 
     private async Task SearchMovies()
     {

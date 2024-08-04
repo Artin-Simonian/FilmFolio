@@ -1,5 +1,5 @@
 ﻿@page "/"
-@inject NavigationManager NavigationManager
+@inject NavigationManager Navigation
 
 <PageTitle>FilmFolio</PageTitle>
 
@@ -8,15 +8,23 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Movie Search</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Developer</a>
+                    <a class="nav-link" href="/developer">Developer</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
+<button type="button" @onclick="MovieBtn" class="btn btn-dark">Movie Search</button>
+
+@code
+{
+     void MovieBtn()
+    {
+        Console.WriteLine("Navigating to Movie Search");
+        Navigation.NavigateTo("moviesearch");
+    }
+}

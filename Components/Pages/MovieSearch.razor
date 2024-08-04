@@ -5,7 +5,7 @@
 <h3>Movie Search</h3>
 
 <input @bind="searchQuery" placeholder="Enter movie title" />
-<button @onclick="SearchMovies" disabled="@isLoading">Search</button>
+<button type="button" @onclick="SearchMovies" disabled="@isLoading">Search</button>
 
 @if (isLoading)
 {

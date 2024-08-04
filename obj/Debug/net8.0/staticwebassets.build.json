@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jcQEyHnUwoamTgEAgkzO3q0p3uG0viFai3xJ5LLOFDA=",
+  "Hash": "AhtNQ8xWhsqXlqqkoDmRCR7j47polXNJbK2WalHd98U=",
   "Source": "FilmFolio",
   "BasePath": "_content/FilmFolio",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FilmFolio\\wwwroot",
       "Source": "FilmFolio",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\wwwroot\\",
       "BasePath": "_content/FilmFolio",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FilmFolio.styles.css",
+      "Identity": "C:\\Users\\User\\source\\repos\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FilmFolio.styles.css",
       "SourceId": "FilmFolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/FilmFolio",
       "RelativePath": "FilmFolio.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FilmFolio.styles.css"
+      "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FilmFolio.styles.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FilmFolio.bundle.scp.css",
+      "Identity": "C:\\Users\\User\\source\\repos\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FilmFolio.bundle.scp.css",
       "SourceId": "FilmFolio",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/FilmFolio",
       "RelativePath": "FilmFolio.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FilmFolio.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\FilmFolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FilmFolio.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\User\\source\\repos\\FilmFolio\\wwwroot\\app.css",
       "SourceId": "FilmFolio",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\wwwroot\\",
       "BasePath": "_content/FilmFolio",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\User\\source\\repos\\FilmFolio\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "FilmFolio",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\wwwroot\\",
       "BasePath": "_content/FilmFolio",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\User\\source\\repos\\FilmFolio\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "FilmFolio",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\wwwroot\\",
       "BasePath": "_content/FilmFolio",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\User\\source\\repos\\FilmFolio\\wwwroot\\favicon.png",
       "SourceId": "FilmFolio",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\FilmFolio\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\FilmFolio\\wwwroot\\",
       "BasePath": "_content/FilmFolio",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
